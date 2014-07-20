@@ -1,9 +1,7 @@
-var async   = require('async')
-  , express = require('express')
+var express = require('express')
   , fs      = require('fs')
   , http    = require('http')
-  , https   = require('https')
-  , db      = require('./models');
+  , https   = require('https');
 
 var app = express();
 app.set('views', __dirname + '/views');
