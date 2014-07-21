@@ -1,7 +1,7 @@
 {
-  "name": "bitstarter-ssjs-orders",
+  "name": "Lakebolt",
   "version": "0.0.1",
-  "description": "Simple server-side JS order processing",
+  "description": "Lakebolt Website",
   "main": "web.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
