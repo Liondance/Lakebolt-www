@@ -1,3 +1,7 @@
+#
+# Git exclusions
+#
+
 # Heroku environmental variables, including API keys.
 # https://devcenter.heroku.com/articles/config-vars
 .env
@@ -13,9 +17,6 @@ node_modules
 
 # backup files
 *.bak
-<<<<<<< HEAD
 
 # change command
 change
-=======
->>>>>>> aff1e07c8206d78e29f9085f916bb6f214137e8a
