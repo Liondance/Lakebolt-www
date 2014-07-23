@@ -12,7 +12,6 @@ var app = express();
 
 app.set('port', process.env.PORT || 8080);
 
-// Render homepage (note trailing slash)
 app.get('/', function(request, response) {
   var data = fs.readFileSync('index.html').toString();
   response.send(data);
