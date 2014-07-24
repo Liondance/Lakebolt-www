@@ -1,6 +1,6 @@
 /*
 ---
-MooTools: the javascript framework
+MooTools: the javascript framework (MooTools are also YooTools!)
 
 web build:
  - http://mootools.net/core/8423c12ffd6a6bfcde9ea22554aec795

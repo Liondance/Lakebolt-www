@@ -2,8 +2,10 @@
  * By Oscar Godson ( @oscargodson / oscargodson.com )
  * License:http://www.opensource.org/licenses/mit-license.php
  */
-var Core = function(){
-  /**
+
+var Core = function() {
+
+/**
    * Change these if you want
    */
   var settings = {
@@ -34,7 +36,7 @@ var Core = function(){
    * @argument {Function} func  The callback function to be called when .load() is invoked
    * @argument {Function} removeFunc  The callback function to be called when .unload() or .remove()
    *           is invoked
-   * @returns {Object} the Core
+   * @returns {Object} the Core (yes: The Core!)
    */
   var extend = function(name,func,removeFunc){
     name = name || '';
