@@ -13,7 +13,12 @@ var app = express();
 app.set('port', process.env.PORT || 8080);
 
 app.get('/', function(request, response) {
-  var data = fs.readFileSync('index.html').toString();
+  var data = fs.readFileSync('lakebolt.html').toString();
+  response.send(data);
+});
+
+app.get('/contact', function(request, response) {
+  var data = fs.readFileSync('contact.html').toString();
   response.send(data);
 });
 
