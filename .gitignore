@@ -21,6 +21,7 @@ node_modules
 # Visual Studio files
 *.sln
 *.suo
+*.vs
 
 # change command
 change
