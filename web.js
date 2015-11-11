@@ -17,6 +17,11 @@ app.get('/', function(request, response) {
   response.send(data);
 });
 
+app.get('/consulting', function(request, response) {
+  var data = fs.readFileSync('consulting.html').toString();
+  response.send(data);
+});
+
 app.get('/contact', function(request, response) {
   var data = fs.readFileSync('contact.html').toString();
   response.send(data);
