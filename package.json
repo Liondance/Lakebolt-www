@@ -1,16 +1,17 @@
 {
   "name": "Lakebolt",
-  "version": "0.0.1",
+  "version": "0.1.0",
+  "private": true,
   "description": "Lakebolt Research website",
   "main": "web.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.17.1"
   },
   "engines": {
-    "node": "0.10.17",
+    "node": "^12.5.0",
     "npm": "1.2.32"
   }
 }
